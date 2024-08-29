@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h3 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    line-height: 1.2;
+}
+
+.container{
+    margin: 0 auto;
+}
+
+nav{
+    background-color: blue;
+    color: black;
+    height: 80px;
+    align-items: center;
+}
+
+.nav-con{
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    align-items: center;
+}
+
+ul.menu{
+    display: flex;
+    list-style: none;
+}
+
+ul.menu li{
+    margin: 0 1rem;
+}
+
+ul.menu li a{
+    color: white;
+    text-decoration: none;
+}

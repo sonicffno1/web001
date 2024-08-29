@@ -1,0 +1,75 @@
+/* ตั้งค่าสำหรับ body */
+body {
+    background-color: #f0f8ff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* ตั้งค่าสำหรับกล่อง container */
+.container {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+    max-width: 500px;
+    width: 100%;
+}
+
+/* ตั้งค่าสำหรับหัวเรื่อง */
+.container h4 {
+    text-align: center;
+    margin-bottom: 24px;
+    color: #333;
+    font-size: 24px;
+}
+
+/* ตั้งค่าสำหรับฟอร์ม input */
+.container input[type="text"],
+.container input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+/* ตั้งค่าสำหรับปุ่มสมัครสมาชิก */
+.container button.btn-primary {
+    width: 100%;
+    background-color: #007bff;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.container button.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+/* ตั้งค่าสำหรับลิงก์เข้าสู่ระบบ */
+.container a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.container a:hover {
+    text-decoration: underline;
+}
+
+/* ตั้งค่าสำหรับข้อความแจ้งเตือน */
+.container p {
+    text-align: center;
+    margin-top: 16px;
+    font-size: 14px;
+    color: #333;
+}
